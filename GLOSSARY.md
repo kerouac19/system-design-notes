@@ -106,3 +106,9 @@
 | heartbeat | 心跳 | |
 | service discovery | 服务发现 | |
 | 301 / 302 | 301 / 302 | 状态码不译 |
+| Bloom filter | 布隆过滤器 | |
+| coordinator | 协调者 | |
+| replica | 副本 | |
+| strong consistency | 强一致性 | |
+| commit log | 提交日志 | |
+| data center | 数据中心 | |
