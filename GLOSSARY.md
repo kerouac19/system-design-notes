@@ -23,6 +23,7 @@
 |------|------|
 | `API` `HTTP` `DoS` `FIFO` `QPS` `CDN` `WAL` `CAP` `JSON` `SQL` `TTL` | 缩写 |
 | `Redis` `Lua` `MySQL` `Kafka` `YouTube` `Google Drive` `Google Maps` `S3` | 产品 / 品牌 / 语言 |
+| `DNS` `LRU` `SPOF` `SLA` `MAU` `DAU` `NoSQL` `PostgreSQL` `GeoDNS` | 缩写 / 产品 |
 | `429` | HTTP 状态码 |
 | 路径、文件名、URL、代码标识符 | 总原则 |
 
@@ -53,3 +54,24 @@
 | rolling minute | 滚动分钟 | |
 | rate limited request | 被限流的请求 | |
 | successful request | 成功的请求 | |
+| load balancer | 负载均衡器 | |
+| vertical scaling | 垂直扩展 | |
+| horizontal scaling | 水平扩展 | |
+| master / slave | 主库 / 从库 | 图内同此 |
+| shard / sharding | 分片 | |
+| stateless | 无状态 | |
+| stateful | 有状态 | |
+| web server | Web 服务器 | |
+| web tier | Web 层 | |
+| data tier | 数据层 | |
+| producer / publisher | 生产者 / 发布者 | |
+| consumer / subscriber | 消费者 / 订阅者 | |
+| origin server | 源站 | |
+| session | 会话 | |
+| consistent hashing | 一致性哈希 | |
+| news feed | 信息流 | |
+| high availability | 高可用 | |
+| single point of failure | 单点故障 | 括注 `SPOF` |
+| celebrity problem | 热点问题 | |
+| denormalization | 反规范化 | |
+| user | 用户 | 图内同此 |
