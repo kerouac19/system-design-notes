@@ -24,6 +24,7 @@
 | `API` `HTTP` `DoS` `FIFO` `QPS` `CDN` `WAL` `CAP` `JSON` `SQL` `TTL` | 缩写 |
 | `Redis` `Lua` `MySQL` `Kafka` `YouTube` `Google Drive` `Google Maps` `S3` | 产品 / 品牌 / 语言 |
 | `DNS` `LRU` `SPOF` `SLA` `MAU` `DAU` `NoSQL` `PostgreSQL` `GeoDNS` | 缩写 / 产品 |
+| `UUID` `WebSocket` `SHA-1` `DAG` `BFS` `DFS` `ZooKeeper` `Cassandra` `Dynamo` `Akamai` `Maglev` | 缩写 / 产品 / 算法名 |
 | `429` | HTTP 状态码 |
 | 路径、文件名、URL、代码标识符 | 总原则 |
 
@@ -75,3 +76,33 @@
 | celebrity problem | 热点问题 | |
 | denormalization | 反规范化 | |
 | user | 用户 | 图内同此 |
+| rehashing | 重哈希 | |
+| hash ring | 哈希环 | |
+| virtual node | 虚拟节点 | |
+| hotspot | 热点 | |
+| key-value store | 键值存储 | |
+| CAP theorem | CAP 定理 | `CAP` 三字母不译 |
+| quorum | 法定人数 | |
+| gossip protocol | Gossip 协议 | Gossip 保留 |
+| merkle tree | Merkle 树 | 英文文件名 `merkel-tree.png` 不改 |
+| vector clock | 向量时钟 | |
+| hinted handoff | 暗示移交 | |
+| sloppy quorum | 宽松法定人数 | |
+| ticket server | 票据服务器 | |
+| hash function | 哈希函数 | |
+| URL shortener | 短链系统 | |
+| web crawler | 网络爬虫 | |
+| URL frontier | URL 前沿 | |
+| fan-out / fanout | 扇出 | |
+| long polling | 长轮询 | |
+| polling | 轮询 | |
+| presence | 在线状态 | |
+| autocomplete | 自动补全 | |
+| trie | 字典树 | 首次可写 字典树（trie） |
+| transcoding | 转码 | |
+| metadata | 元数据 | |
+| delta sync | 增量同步 | |
+| notification | 通知 | |
+| heartbeat | 心跳 | |
+| service discovery | 服务发现 | |
+| 301 / 302 | 301 / 302 | 状态码不译 |
