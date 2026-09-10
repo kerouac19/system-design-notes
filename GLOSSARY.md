@@ -1,0 +1,55 @@
+# 术语表
+
+系统设计面试笔记中文稿的用词与格式约定。各章 `README.zh.md` 与 `images-zh/` 必须遵守。
+
+## 硬约定
+
+- 中文为主。某一术语在**该章第一次**出现时括注英文，后文只用中文。范围是每一章，不是全书。
+- 缩写不译：`QPS`、`WAL`、`CDN`、`API`、`CAP`、`HTTP`、`JSON`、`SQL`、`TTL`、`DoS`、`FIFO` 等。
+- 代码、路径、字段名、URL、图片文件名不译。
+- 产品名 / 语言名不译：`Redis`、`Lua`、`MySQL`、`Kafka`、`YouTube`、`Google Drive`、`Google Maps`、`S3` 等。
+- HTTP 状态码保留数字（如 `429`）；原因短语可译（`429: 请求过多`）。
+- `C:` / `I:` 写成「候选人：…」和「面试官：…」。示例：候选人：限流器是做在客户端还是服务端？ / 面试官：做服务端 API 限流器。
+
+- 图内文字用下表中文名，图上不括注英文；需要时写在 `alt`。
+- 时间戳（`1:00:00`）、百分数（`70%`）不改。
+- 明显笔误只改中文稿，不改英文文件。
+- 表里已有的中文名，后面章节必须沿用。要改译，先改本表再全局替换。
+- 只收会跨章出现的词。一章里的一次性说法不必进表，但同一章内要前后一致。
+
+## 永不翻译
+
+| 原文 | 原因 |
+|------|------|
+| `API` `HTTP` `DoS` `FIFO` `QPS` `CDN` `WAL` `CAP` `JSON` `SQL` `TTL` | 缩写 |
+| `Redis` `Lua` `MySQL` `Kafka` `YouTube` `Google Drive` `Google Maps` `S3` | 产品 / 品牌 / 语言 |
+| `429` | HTTP 状态码 |
+| 路径、文件名、URL、代码标识符 | 总原则 |
+
+## 对照表
+
+| 英文 | 中文 | 备注 |
+|------|------|------|
+| rate limiter / rate limiting | 限流器 / 限流 | 名词用「限流器」，动作/泛称用「限流」 |
+| throttle / throttled | 限流 / 被限流 | 不另造「节流」 |
+| token bucket | 令牌桶 | |
+| leaking bucket | 漏桶 | 不用「泄漏桶」 |
+| fixed window counter | 固定窗口计数器 | |
+| sliding window log | 滑动窗口日志 | |
+| sliding window counter | 滑动窗口计数器 | |
+| middleware | 中间件 | |
+| API gateway | API 网关 | |
+| client | 客户端 | 图内同此 |
+| API servers | API 服务器 | |
+| cache / cached rules | 缓存 / 缓存规则 | 图上 `CACHE` 写成「缓存」 |
+| workers | 工作节点 | |
+| rules | 规则 | |
+| message queue | 消息队列 | |
+| race condition | 竞态条件 | |
+| eventual consistency | 最终一致性 | |
+| burst | 突发流量 | |
+| queue | 队列 | |
+| refiller | 补充器 | |
+| rolling minute | 滚动分钟 | |
+| rate limited request | 被限流的请求 | |
+| successful request | 成功的请求 | |
