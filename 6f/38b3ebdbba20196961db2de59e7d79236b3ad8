@@ -1,0 +1,14 @@
+GLOSSARY.md
+  h_4fabc58c4a1753 1-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6f38b3ebdbba20196961db2de59e7d79236b3ad8",
+  "prompts": {},
+  "humans": {
+    "h_4fabc58c4a1753": {
+      "author": "HG <hg@HGs-MacBook-Pro.local>"
+    }
+  }
+}
