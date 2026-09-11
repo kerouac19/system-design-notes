@@ -28,7 +28,7 @@
 | `GPS` `SMTP` `IMAP` `POP` `PSP` `ISR` `TCC` `Saga` `Raft` `Geohash` `S2` `Stripe` `Grafana` `InfluxDB` `RocksDB` `CQRS` | 缩写 / 产品 / 协议 |
 | `Elasticsearch` `BigTable` `HTTPS` | 产品 / 协议 |
 | `ACID` `CDC` `gRPC` `Debezium` `CRON` | 缩写 / 产品 / 协议 |
-| `Paxos` `SQLite` `IAM` `IOPS` `inode` | 算法 / 产品 / 缩写 / Unix 术语 |
+| `Paxos` `SQLite` `IAM` `IOPS` `inode` `mmap` `NOP` `HDFS` | 算法 / 产品 / 缩写 / Unix 术语 |
 | `YugabyteDB` `CockroachDB` `PayPal` `Visa` `MasterCard` `Adyen` `PCI` | 产品 / 品牌 / 标准 |
 | `webhook` `3D Secure` `CVV` | 协议 / 标准 / 字段名 |
 | `429` | HTTP 状态码 |
@@ -195,3 +195,11 @@
 | card schemes | 卡组织 | Visa / MasterCard 等 |
 | payment service | 支付服务 | |
 | payment executor | 支付执行器 | |
+| reverse proxy | 反向代理 | |
+| state machine | 状态机 | |
+| snapshot | 快照 | |
+| distributed transaction | 分布式事务 | |
+| write path / read path | 写路径 / 读路径 | |
+| consensus algorithm | 共识算法 | |
+| leader / follower | 领导者 / 跟随者 | Raft 等 |
+| digital wallet | 数字钱包 | 钱包见 wallet |
