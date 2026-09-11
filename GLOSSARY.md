@@ -140,6 +140,7 @@
 | colocation | 托管 | |
 | geospatial index | 地理空间索引 | |
 | availability zone | 可用区 | |
+| geofence / geofencing | 地理围栏 | |
 | exactly-once | 精确一次 | |
 | at-least-once | 至少一次 | |
 | at-most-once | 至多一次 | |
