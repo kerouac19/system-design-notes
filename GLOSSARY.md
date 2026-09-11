@@ -25,7 +25,8 @@
 | `Redis` `Lua` `MySQL` `Kafka` `YouTube` `Google Drive` `Google Maps` `S3` | 产品 / 品牌 / 语言 |
 | `DNS` `LRU` `SPOF` `SLA` `MAU` `DAU` `NoSQL` `PostgreSQL` `GeoDNS` | 缩写 / 产品 |
 | `UUID` `WebSocket` `SHA-1` `DAG` `BFS` `DFS` `ZooKeeper` `Cassandra` `Dynamo` `Akamai` `Maglev` | 缩写 / 产品 / 算法名 |
-| `GPS` `SMTP` `IMAP` `PSP` `ISR` `TCC` `Saga` `Raft` `Geohash` `S2` `Stripe` `Grafana` `InfluxDB` `RocksDB` `CQRS` | 缩写 / 产品 / 协议 |
+| `GPS` `SMTP` `IMAP` `POP` `PSP` `ISR` `TCC` `Saga` `Raft` `Geohash` `S2` `Stripe` `Grafana` `InfluxDB` `RocksDB` `CQRS` | 缩写 / 产品 / 协议 |
+| `Elasticsearch` `BigTable` `HTTPS` | 产品 / 协议 |
 | `ACID` `CDC` `gRPC` `Debezium` `CRON` | 缩写 / 产品 / 协议 |
 | `429` | HTTP 状态码 |
 | 路径、文件名、URL、代码标识符 | 总原则 |
@@ -153,3 +154,11 @@
 | atomicity | 原子性 | |
 | unique constraint | 唯一约束 | |
 | database constraint | 数据库约束 | |
+| partition key | 分区键 | Cassandra 等；消息队列场景的「分区」见 partition |
+| clustering key | 聚类键 | Cassandra 排序键 |
+| LSM-tree | LSM 树 | Log-Structured Merge-Tree；LSM 不译 |
+| full-text search | 全文搜索 | |
+| spam | 垃圾邮件 | |
+| phishing | 钓鱼 | |
+| attachment | 附件 | |
+| exponential backoff | 指数退避 | |
