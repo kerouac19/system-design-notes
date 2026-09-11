@@ -21,14 +21,14 @@
 
 | 原文 | 原因 |
 |------|------|
-| `API` `HTTP` `DoS` `FIFO` `QPS` `CDN` `WAL` `CAP` `JSON` `SQL` `TTL` | 缩写 |
+| `API` `HTTP` `DoS` `DDoS` `FIFO` `QPS` `CDN` `WAL` `CAP` `JSON` `SQL` `TTL` `KYC` | 缩写 |
 | `Redis` `Lua` `MySQL` `Kafka` `YouTube` `Google Drive` `Google Maps` `S3` | 产品 / 品牌 / 语言 |
 | `DNS` `LRU` `SPOF` `SLA` `MAU` `DAU` `NoSQL` `PostgreSQL` `GeoDNS` | 缩写 / 产品 |
 | `UUID` `WebSocket` `SHA-1` `DAG` `BFS` `DFS` `ZooKeeper` `Cassandra` `Dynamo` `DynamoDB` `Lambda` `MongoDB` `Akamai` `Maglev` | 缩写 / 产品 / 算法名 |
 | `GPS` `SMTP` `IMAP` `POP` `PSP` `ISR` `TCC` `Saga` `Raft` `Geohash` `S2` `Stripe` `Grafana` `InfluxDB` `RocksDB` `CQRS` | 缩写 / 产品 / 协议 |
 | `Elasticsearch` `BigTable` `HTTPS` | 产品 / 协议 |
 | `ACID` `CDC` `gRPC` `Debezium` `CRON` | 缩写 / 产品 / 协议 |
-| `Paxos` `SQLite` `IAM` `IOPS` `inode` `mmap` `NOP` `HDFS` | 算法 / 产品 / 缩写 / Unix 术语 |
+| `Paxos` `SQLite` `IAM` `IOPS` `inode` `mmap` `NOP` `HDFS` `FIX` `SBE` `KDB` `AMM` `FIXT` | 算法 / 产品 / 缩写 / Unix 术语 |
 | `YugabyteDB` `CockroachDB` `PayPal` `Visa` `MasterCard` `Adyen` `PCI` | 产品 / 品牌 / 标准 |
 | `webhook` `3D Secure` `CVV` | 协议 / 标准 / 字段名 |
 | `429` | HTTP 状态码 |
@@ -122,7 +122,7 @@
 | quadtree | 四叉树 | |
 | pub/sub | 发布/订阅 | |
 | map tile | 地图瓦片 | |
-| broker | Broker | 消息队列场景保留 Broker |
+| broker | Broker | 消息队列场景保留 Broker；证券场景用「券商」 |
 | topic | 主题 | |
 | partition | 分区 | 已有 shard/分片；消息队列用「分区」 |
 | consumer group | 消费者组 | |
@@ -203,3 +203,15 @@
 | consensus algorithm | 共识算法 | |
 | leader / follower | 领导者 / 跟随者 | Raft 等 |
 | digital wallet | 数字钱包 | 钱包见 wallet |
+| sequencer | 定序器 | |
+| market data | 行情 | |
+| ring buffer | 环形缓冲区 | 又称循环缓冲区 |
+| unicast | 单播 | |
+| broadcast | 广播 | 与 multicast/组播 成组 |
+| client gateway | 客户端网关 | |
+| candlestick | K线 | |
+| bid / ask | 买价 / 卖价 | |
+| fill / execution | 成交 | 证券成交；与 executions 同 |
+| limit order | 限价单 | |
+| market order | 市价单 | |
+| application loop | 应用循环 | |
