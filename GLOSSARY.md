@@ -28,6 +28,7 @@
 | `GPS` `SMTP` `IMAP` `POP` `PSP` `ISR` `TCC` `Saga` `Raft` `Geohash` `S2` `Stripe` `Grafana` `InfluxDB` `RocksDB` `CQRS` | 缩写 / 产品 / 协议 |
 | `Elasticsearch` `BigTable` `HTTPS` | 产品 / 协议 |
 | `ACID` `CDC` `gRPC` `Debezium` `CRON` | 缩写 / 产品 / 协议 |
+| `Paxos` `SQLite` `IAM` `IOPS` `inode` | 算法 / 产品 / 缩写 / Unix 术语 |
 | `429` | HTTP 状态码 |
 | 路径、文件名、URL、代码标识符 | 总原则 |
 
@@ -162,3 +163,13 @@
 | phishing | 钓鱼 | |
 | attachment | 附件 | |
 | exponential backoff | 指数退避 | |
+| block storage | 块存储 | |
+| file storage | 文件存储 | |
+| bucket | 存储桶 | S3 对象容器；图内同此 |
+| durability | 耐久性 | 数据不丢失；与 availability/可用性 区分 |
+| garbage collection | 垃圾回收 | |
+| checksum | 校验和 | |
+| compaction | 压缩 | LSM / 对象存储回收空间；靠上下文与 data compression 区分 |
+| multipart upload | 分段上传 | AWS 常用译名；勿与 shard/分片 混用 |
+| failure domain | 故障域 | |
+| data node | 数据节点 | |
