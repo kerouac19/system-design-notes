@@ -26,6 +26,7 @@
 | `DNS` `LRU` `SPOF` `SLA` `MAU` `DAU` `NoSQL` `PostgreSQL` `GeoDNS` | 缩写 / 产品 |
 | `UUID` `WebSocket` `SHA-1` `DAG` `BFS` `DFS` `ZooKeeper` `Cassandra` `Dynamo` `Akamai` `Maglev` | 缩写 / 产品 / 算法名 |
 | `GPS` `SMTP` `IMAP` `PSP` `ISR` `TCC` `Saga` `Raft` `Geohash` `S2` `Stripe` `Grafana` `InfluxDB` `RocksDB` `CQRS` | 缩写 / 产品 / 协议 |
+| `ACID` `CDC` `gRPC` `Debezium` `CRON` | 缩写 / 产品 / 协议 |
 | `429` | HTTP 状态码 |
 | 路径、文件名、URL、代码标识符 | 总原则 |
 
@@ -144,3 +145,11 @@
 | exactly-once | 精确一次 | |
 | at-least-once | 至少一次 | |
 | at-most-once | 至多一次 | |
+| microservice | 微服务 | |
+| inventory | 库存 | |
+| two-phase commit | 两阶段提交 | |
+| compensating transaction | 补偿事务 | |
+| monolith / monolithic architecture | 单体 / 单体架构 | |
+| atomicity | 原子性 | |
+| unique constraint | 唯一约束 | |
+| database constraint | 数据库约束 | |
