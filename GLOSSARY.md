@@ -29,6 +29,8 @@
 | `Elasticsearch` `BigTable` `HTTPS` | 产品 / 协议 |
 | `ACID` `CDC` `gRPC` `Debezium` `CRON` | 缩写 / 产品 / 协议 |
 | `Paxos` `SQLite` `IAM` `IOPS` `inode` | 算法 / 产品 / 缩写 / Unix 术语 |
+| `YugabyteDB` `CockroachDB` `PayPal` `Visa` `MasterCard` `Adyen` `PCI` | 产品 / 品牌 / 标准 |
+| `webhook` `3D Secure` `CVV` | 协议 / 标准 / 字段名 |
 | `429` | HTTP 状态码 |
 | 路径、文件名、URL、代码标识符 | 总原则 |
 
@@ -182,3 +184,14 @@
 | primary key | 主键 | |
 | range partitioning | 范围分区 | |
 | hash partitioning | 哈希分区 | |
+| pay-in | 收款 | 收款流程；与 pay-out/付款 成对 |
+| pay-out | 付款 | |
+| hosted payment page | 托管支付页 | 图内同此；与 colocation/托管 区分 |
+| ledger | 账本 | 复式记账见 double-entry ledger |
+| wallet | 钱包 | |
+| settlement file | 结算文件 | |
+| dead-letter queue | 死信队列 | |
+| retry queue | 重试队列 | |
+| card schemes | 卡组织 | Visa / MasterCard 等 |
+| payment service | 支付服务 | |
+| payment executor | 支付执行器 | |
