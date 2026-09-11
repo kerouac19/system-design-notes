@@ -24,7 +24,7 @@
 | `API` `HTTP` `DoS` `FIFO` `QPS` `CDN` `WAL` `CAP` `JSON` `SQL` `TTL` | 缩写 |
 | `Redis` `Lua` `MySQL` `Kafka` `YouTube` `Google Drive` `Google Maps` `S3` | 产品 / 品牌 / 语言 |
 | `DNS` `LRU` `SPOF` `SLA` `MAU` `DAU` `NoSQL` `PostgreSQL` `GeoDNS` | 缩写 / 产品 |
-| `UUID` `WebSocket` `SHA-1` `DAG` `BFS` `DFS` `ZooKeeper` `Cassandra` `Dynamo` `Akamai` `Maglev` | 缩写 / 产品 / 算法名 |
+| `UUID` `WebSocket` `SHA-1` `DAG` `BFS` `DFS` `ZooKeeper` `Cassandra` `Dynamo` `DynamoDB` `Lambda` `MongoDB` `Akamai` `Maglev` | 缩写 / 产品 / 算法名 |
 | `GPS` `SMTP` `IMAP` `POP` `PSP` `ISR` `TCC` `Saga` `Raft` `Geohash` `S2` `Stripe` `Grafana` `InfluxDB` `RocksDB` `CQRS` | 缩写 / 产品 / 协议 |
 | `Elasticsearch` `BigTable` `HTTPS` | 产品 / 协议 |
 | `ACID` `CDC` `gRPC` `Debezium` `CRON` | 缩写 / 产品 / 协议 |
@@ -173,3 +173,12 @@
 | multipart upload | 分段上传 | AWS 常用译名；勿与 shard/分片 混用 |
 | failure domain | 故障域 | |
 | data node | 数据节点 | |
+| skip list | 跳表 | Redis 有序集合内部结构 |
+| scatter-gather | 散集 | 分散后收集合并 |
+| write sharding | 写分片 | 打散热点写 |
+| serverless | 无服务器 | |
+| global secondary index | 全局二级索引 | DynamoDB GSI |
+| sort key | 排序键 | DynamoDB；Cassandra 用 clustering key/聚类键 |
+| primary key | 主键 | |
+| range partitioning | 范围分区 | |
+| hash partitioning | 哈希分区 | |
