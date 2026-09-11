@@ -25,6 +25,7 @@
 | `Redis` `Lua` `MySQL` `Kafka` `YouTube` `Google Drive` `Google Maps` `S3` | 产品 / 品牌 / 语言 |
 | `DNS` `LRU` `SPOF` `SLA` `MAU` `DAU` `NoSQL` `PostgreSQL` `GeoDNS` | 缩写 / 产品 |
 | `UUID` `WebSocket` `SHA-1` `DAG` `BFS` `DFS` `ZooKeeper` `Cassandra` `Dynamo` `Akamai` `Maglev` | 缩写 / 产品 / 算法名 |
+| `GPS` `SMTP` `IMAP` `PSP` `ISR` `TCC` `Saga` `Raft` `Geohash` `S2` `Stripe` `Grafana` `InfluxDB` `RocksDB` `CQRS` | 缩写 / 产品 / 协议 |
 | `429` | HTTP 状态码 |
 | 路径、文件名、URL、代码标识符 | 总原则 |
 
@@ -112,3 +113,33 @@
 | strong consistency | 强一致性 | |
 | commit log | 提交日志 | |
 | data center | 数据中心 | |
+| geohash | Geohash | 不译算法名；正文可写 Geohash |
+| quadtree | 四叉树 | |
+| pub/sub | 发布/订阅 | |
+| map tile | 地图瓦片 | |
+| broker | Broker | 消息队列场景保留 Broker |
+| topic | 主题 | |
+| partition | 分区 | 已有 shard/分片；消息队列用「分区」 |
+| consumer group | 消费者组 | |
+| in-sync replica | 同步副本 | 括注 ISR |
+| watermark | 水位线 | |
+| tumbling window | 滚动窗口 | |
+| idempotency | 幂等 | |
+| optimistic locking | 乐观锁 | |
+| pessimistic locking | 悲观锁 | |
+| object storage | 对象存储 | |
+| erasure coding | 纠删码 | |
+| leaderboard | 排行榜 | |
+| sorted set | 有序集合 | |
+| double-entry ledger | 复式记账 | |
+| reconciliation | 对账 | |
+| event sourcing | 事件溯源 | |
+| matching engine | 撮合引擎 | |
+| order book | 订单簿 | |
+| multicast | 组播 | |
+| colocation | 托管 | |
+| geospatial index | 地理空间索引 | |
+| availability zone | 可用区 | |
+| exactly-once | 精确一次 | |
+| at-least-once | 至少一次 | |
+| at-most-once | 至多一次 | |
