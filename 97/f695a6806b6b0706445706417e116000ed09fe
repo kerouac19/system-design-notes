@@ -1,0 +1,14 @@
+GLOSSARY.md
+  h_af5fc21353744c 28,115-145
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "97f695a6806b6b0706445706417e116000ed09fe",
+  "prompts": {},
+  "humans": {
+    "h_af5fc21353744c": {
+      "author": "kerouac19 <kerouac19@gmail.com>"
+    }
+  }
+}
